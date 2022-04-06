@@ -5,12 +5,8 @@ from car import Car
 from boat import Boat
 from plane import Plane
 from bike import Bike
-
 from pydantic import BaseModel
 from fastapi.responses import ORJSONResponse
-
-# import JSONDecodeError
-
 import writer
 import subprocess
 from fastapi.responses import JSONResponse
